@@ -1,0 +1,127 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://src/player/weapons/Bomb.gd" type="Script" id=1]
+[ext_resource path="res://assets/3d/OBJ format/rocket_finsA.obj" type="ArrayMesh" id=2]
+[ext_resource path="res://assets/3d/OBJ format/rocket_sidesA.obj" type="ArrayMesh" id=3]
+[ext_resource path="res://assets/3d/OBJ format/rocket_baseA.obj" type="ArrayMesh" id=4]
+[ext_resource path="res://assets/3d/OBJ format/rocket_topA.obj" type="ArrayMesh" id=5]
+[ext_resource path="res://assets/3d/OBJ format/rocket_fuelA.obj" type="ArrayMesh" id=6]
+
+[sub_resource type="SpatialMaterial" id=1]
+flags_vertex_lighting = true
+albedo_color = Color( 0.780392, 0.498039, 0.129412, 1 )
+emission_enabled = true
+emission = Color( 0.780392, 0.498039, 0.129412, 1 )
+emission_energy = 1.0
+emission_operator = 0
+emission_on_uv2 = false
+
+[sub_resource type="SphereMesh" id=2]
+radius = 0.01
+height = 0.02
+
+[sub_resource type="SpatialMaterial" id=3]
+flags_transparent = true
+flags_unshaded = true
+flags_vertex_lighting = true
+vertex_color_use_as_albedo = true
+
+[sub_resource type="SphereMesh" id=4]
+
+[sub_resource type="Curve" id=5]
+_data = [ Vector2( 0, 0.5125 ), 0.0, 4.37143, 0, 0, Vector2( 1, 0 ), -0.706034, 0.0, 0, 0 ]
+
+[sub_resource type="Gradient" id=6]
+offsets = PoolRealArray( 0.2, 0.405714, 0.634286, 0.811429 )
+colors = PoolColorArray( 1, 0, 0, 1, 1, 0.996094, 0, 1, 0.416016, 0.416016, 0.416016, 1, 0.376471, 0.376471, 0.376471, 0 )
+
+[sub_resource type="CylinderShape" id=7]
+radius = 4.0
+height = 0.302541
+
+[node name="Bomb" type="MeshInstance"]
+material_override = SubResource( 1 )
+mesh = SubResource( 2 )
+material/0 = null
+script = ExtResource( 1 )
+
+[node name="Smoke" type="CPUParticles" parent="."]
+material_override = SubResource( 3 )
+emitting = false
+amount = 30
+lifetime = 2.0
+one_shot = true
+speed_scale = 2.0
+explosiveness = 1.0
+mesh = SubResource( 4 )
+direction = Vector3( 0, 1, 0 )
+spread = 180.0
+flatness = 0.5
+gravity = Vector3( 0, 2, 0 )
+initial_velocity = 2.0
+initial_velocity_random = 0.1
+linear_accel = 20.0
+linear_accel_random = 0.1
+radial_accel = -12.0
+radial_accel_random = 0.1
+damping = 3.0
+damping_random = 0.3
+scale_amount = 2.0
+scale_amount_random = 1.0
+scale_amount_curve = SubResource( 5 )
+color_ramp = SubResource( 6 )
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 5.0
+one_shot = true
+autostart = true
+
+[node name="Area" type="Area" parent="." groups=[
+"PlayerWeapon",
+]]
+collision_layer = 3
+collision_mask = 3
+
+[node name="CollisionShape" type="CollisionShape" parent="Area"]
+shape = SubResource( 7 )
+
+[node name="Model" type="Spatial" parent="."]
+transform = Transform( 0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0, 0 )
+
+[node name="rocket_baseA" type="MeshInstance" parent="Model"]
+transform = Transform( 1, 0, 0, 0, -1, 8.74228e-08, 0, -8.74228e-08, -1, 0, 2, 1.39344e-07 )
+mesh = ExtResource( 4 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="rocket_finsA" type="MeshInstance" parent="Model"]
+transform = Transform( 1, 0, 0, 0, -1, 8.74228e-08, 0, -8.74228e-08, -1, 0, 1.00282, 5.21677e-08 )
+mesh = ExtResource( 2 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="rocket_fuelA" type="MeshInstance" parent="Model"]
+transform = Transform( 1, 0, 0, 0, -1, 8.74228e-08, 0, -8.74228e-08, -1, 0, 0.312179, -8.20993e-09 )
+mesh = ExtResource( 6 )
+material/0 = null
+material/1 = null
+
+[node name="rocket_sidesA" type="MeshInstance" parent="Model"]
+transform = Transform( 1, 0, 0, 0, -1, 8.74228e-08, 0, -8.74228e-08, -1, 0, -0.187821, -5.19213e-08 )
+mesh = ExtResource( 3 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="rocket_topA" type="MeshInstance" parent="Model"]
+transform = Transform( 1, 0, 0, 0, -1, 8.74228e-08, 0, -8.74228e-08, -1, 0, -1.18782, -1.39344e-07 )
+mesh = ExtResource( 5 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
+[connection signal="body_entered" from="Area" to="." method="_on_Area_body_entered"]

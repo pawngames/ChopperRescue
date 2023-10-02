@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/monorail_trainEnd.obj-aa2f7ed57a6ad69f3baf8d5b1f376cad.mesh"
+
+[deps]
+
+files=[ "res://.import/monorail_trainEnd.obj-aa2f7ed57a6ad69f3baf8d5b1f376cad.mesh" ]
+
+source_file="res://assets/3d/OBJ format/monorail_trainEnd.obj"
+dest_files=[ "res://.import/monorail_trainEnd.obj-aa2f7ed57a6ad69f3baf8d5b1f376cad.mesh", "res://.import/monorail_trainEnd.obj-aa2f7ed57a6ad69f3baf8d5b1f376cad.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

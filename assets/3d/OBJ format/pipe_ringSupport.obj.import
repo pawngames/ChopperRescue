@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/pipe_ringSupport.obj-7c6a19e525bfe8b62b52bbfa2aced9bb.mesh"
+
+[deps]
+
+files=[ "res://.import/pipe_ringSupport.obj-7c6a19e525bfe8b62b52bbfa2aced9bb.mesh" ]
+
+source_file="res://assets/3d/OBJ format/pipe_ringSupport.obj"
+dest_files=[ "res://.import/pipe_ringSupport.obj-7c6a19e525bfe8b62b52bbfa2aced9bb.mesh", "res://.import/pipe_ringSupport.obj-7c6a19e525bfe8b62b52bbfa2aced9bb.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

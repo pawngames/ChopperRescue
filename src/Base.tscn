@@ -1,0 +1,90 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://src/meshlib/kenney.meshlib" type="MeshLibrary" id=1]
+[ext_resource path="res://src/particles/LandingIndicator.tscn" type="PackedScene" id=2]
+[ext_resource path="res://src/Base.gd" type="Script" id=3]
+[ext_resource path="res://src/hostage/HostageB.tscn" type="PackedScene" id=4]
+
+[sub_resource type="BoxShape" id=1]
+extents = Vector3( 4, 0.2, 4 )
+
+[sub_resource type="NavigationMesh" id=2]
+vertices = PoolVector3Array( -4.0058, 0.363431, 7.11257, -4.0058, 0.363431, 4.71257, -4.6058, 0.363431, 4.41257, -4.6058, 0.363431, -3.38743, -4.0058, 0.363431, -3.68743, -4.0058, 0.363431, -6.08743, -12.4058, 0.363431, -6.08743, -4.6058, 0.363431, -3.38743, -12.4058, 0.363431, -6.08743, -12.4058, 0.363431, 0.512567, -4.6058, 0.363431, 4.41257, -12.4058, 0.363431, 7.11257, -4.0058, 0.363431, 7.11257, -4.6058, 0.363431, 4.41257, -12.4058, 0.363431, 0.512567, 3.7942, 0.363431, 4.41257, -4.0058, 0.363431, 4.71257, -4.0058, 0.363431, 7.11257, 5.8942, 0.363431, 7.11257, -4.0058, 0.363431, -6.08743, -4.0058, 0.363431, -3.68743, 3.7942, 0.363431, -3.38743, 5.8942, 0.363431, -6.08743, 3.7942, 0.363431, 4.41257, 5.8942, 0.363431, 7.11257, 5.8942, 0.363431, 0.512567, 3.7942, 0.363431, -3.38743, 3.7942, 0.363431, -3.38743, 5.8942, 0.363431, 0.512567, 5.8942, 0.363431, -6.08743, -3.1058, 2.16343, -2.18743, -3.1058, 2.16343, 3.21257, 2.2942, 2.16343, 3.21257, 2.2942, 2.16343, -2.18743 )
+polygons = [ PoolIntArray( 2, 1, 0 ), PoolIntArray( 4, 3, 5 ), PoolIntArray( 5, 3, 6 ), PoolIntArray( 8, 7, 9 ), PoolIntArray( 9, 7, 10 ), PoolIntArray( 12, 11, 13 ), PoolIntArray( 13, 11, 14 ), PoolIntArray( 16, 15, 17 ), PoolIntArray( 17, 15, 18 ), PoolIntArray( 20, 19, 21 ), PoolIntArray( 21, 19, 22 ), PoolIntArray( 24, 23, 25 ), PoolIntArray( 25, 23, 26 ), PoolIntArray( 29, 28, 27 ), PoolIntArray( 33, 32, 30 ), PoolIntArray( 30, 32, 31 ) ]
+agent/radius = 0.5
+agent/max_slope = 30.1
+filter/low_hanging_obstacles = true
+filter/ledge_spans = true
+filter/filter_walkable_low_height_spans = true
+
+[sub_resource type="CubeMesh" id=3]
+size = Vector3( 20, 0.1, 15 )
+
+[sub_resource type="CubeMesh" id=4]
+size = Vector3( 7, 3, 7 )
+
+[sub_resource type="BoxShape" id=5]
+extents = Vector3( 0.289617, 1, 1 )
+
+[node name="Base" type="Spatial" groups=[
+"Base",
+]]
+script = ExtResource( 3 )
+hostage_scene = ExtResource( 4 )
+
+[node name="GridMap" type="GridMap" parent="."]
+mesh_library = ExtResource( 1 )
+cell_size = Vector3( 1, 1, 1 )
+cell_center_y = false
+cell_scale = 4.0
+data = {
+"cells": PoolIntArray( 65526, 0, 1048623, 65535, 0, 655453, 262136, 0, 1441809, 327669, 0, 1048725, 16, 2, 1048679, 65516, 2, 1441895, 65552, 2, 1048676, 131052, 2, 1441892, 131088, 2, 1048679, 196588, 2, 1441895, 11, 4, 149, 16, 6, 1048679, 65516, 6, 1441895, 65552, 6, 1048676, 131052, 6, 1441892, 131088, 6, 1048679, 196588, 6, 1441895, 14, 8, 85, 65518, 8, 85, 262158, 8, 1048611, 327662, 8, 1048611, 0, 10, 103, 4, 10, 103, 8, 10, 103, 12, 10, 103, 65520, 10, 103, 65524, 10, 103, 65528, 10, 103, 65532, 10, 103, 65536, 10, 100, 65540, 10, 100, 65544, 10, 100, 65548, 10, 100, 131056, 10, 100, 131060, 10, 100, 131064, 10, 100, 131068, 10, 100, 131072, 10, 103, 131076, 10, 103, 131080, 10, 103, 131084, 10, 103, 196592, 10, 103, 196596, 10, 103, 196600, 10, 103, 196604, 10, 103, 0, 65506, 655463, 4, 65506, 655463, 8, 65506, 655463, 12, 65506, 655463, 65520, 65506, 655463, 65524, 65506, 655463, 65528, 65506, 655463, 65532, 65506, 655463, 65536, 65506, 655460, 65540, 65506, 655460, 65544, 65506, 655460, 65548, 65506, 655460, 131056, 65506, 655460, 131060, 65506, 655460, 131064, 65506, 655460, 131068, 65506, 655460, 131072, 65506, 655463, 131076, 65506, 655463, 131080, 65506, 655463, 131084, 65506, 655463, 196592, 65506, 655463, 196596, 65506, 655463, 196600, 65506, 655463, 196604, 65506, 655463, 14, 65508, 85, 65518, 65508, 85, 262158, 65508, 1048611, 327662, 65508, 1048611, 16, 65510, 1048679, 65516, 65510, 1441895, 65552, 65510, 1048676, 131052, 65510, 1441892, 131088, 65510, 1048679, 196588, 65510, 1441895, 65523, 65512, 1048725, 10, 65513, 1048725, 16, 65514, 1048679, 65516, 65514, 1441895, 65552, 65514, 1048676, 131052, 65514, 1441892, 131088, 65514, 1048679, 196588, 65514, 1441895, 65525, 65516, 4, 16, 65518, 1048679, 65516, 65518, 1441895, 65524, 65518, 4, 65526, 65518, 4, 65552, 65518, 1048676, 131052, 65518, 1441892, 131088, 65518, 1048679, 196588, 65518, 1441895, 65526, 65521, 1048706, 327670, 65521, 1048706, 524278, 65521, 86, 589814, 65521, 1048673, 655350, 65521, 1048699, 12, 65522, 92, 16, 65522, 1048679, 65516, 65522, 1441895, 65552, 65522, 1048676, 131052, 65522, 1441892, 131082, 65522, 1114210, 131087, 65522, 1114210, 131088, 65522, 1048679, 196588, 65522, 1441895, 262156, 65522, 95, 393228, 65522, 1048726, 14, 65524, 1048661, 9, 65526, 1441807, 12, 65526, 1048705, 15, 65526, 1048591, 65516, 65526, 1441895, 131052, 65526, 1441892, 196588, 65526, 1441895, 196623, 65526, 1441809, 262156, 65526, 1048673, 14, 65528, 1048661, 65526, 65528, 1048623, 262136, 65528, 1441809, 12, 65530, 92, 16, 65530, 1048679, 65516, 65530, 1441895, 65552, 65530, 1048676, 131052, 65530, 1441892, 131082, 65530, 65634, 131087, 65530, 65634, 131088, 65530, 1048679, 196588, 65530, 1441895, 262156, 65530, 95, 393228, 65530, 1048726, 16, 65534, 1048679, 65516, 65534, 1441895, 65552, 65534, 1048676, 131052, 65534, 1441892, 131088, 65534, 1048679, 196588, 65534, 1441895 )
+}
+__meta__ = {
+"_editor_clip_": 0,
+"_editor_floor_": Vector3( 0, 2, 0 )
+}
+
+[node name="LandingArea" type="Area" parent="." groups=[
+"Landing_Zone",
+]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0.2, 0.5 )
+
+[node name="CollisionShape" type="CollisionShape" parent="LandingArea"]
+shape = SubResource( 1 )
+
+[node name="LandingIndicator" parent="LandingArea" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0 )
+
+[node name="Hostages" type="Spatial" parent="."]
+
+[node name="HostageLanding" type="Position3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.175448, 0.632161, 5.06241 )
+
+[node name="Navigation" type="Navigation" parent="."]
+
+[node name="NavigationMeshInstance" type="NavigationMeshInstance" parent="Navigation"]
+navmesh = SubResource( 2 )
+
+[node name="MeshInstance" type="MeshInstance" parent="Navigation/NavigationMeshInstance"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.3058, 0, 0.512566 )
+visible = false
+mesh = SubResource( 3 )
+material/0 = null
+
+[node name="MeshInstance2" type="MeshInstance" parent="Navigation/NavigationMeshInstance"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.476935, 0.263431, 0.486628 )
+visible = false
+mesh = SubResource( 4 )
+material/0 = null
+
+[node name="RescueArea" type="Area" parent="." groups=[
+"RescueZone",
+]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.99863, 0.929329, 0.49709 )
+
+[node name="CollisionShape" type="CollisionShape" parent="RescueArea"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0688481, 0 )
+shape = SubResource( 5 )
+
+[connection signal="area_entered" from="LandingArea" to="." method="_on_LandingArea_area_entered"]

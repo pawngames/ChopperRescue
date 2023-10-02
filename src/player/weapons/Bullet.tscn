@@ -1,0 +1,100 @@
+[gd_scene load_steps=9 format=2]
+
+[sub_resource type="SpatialMaterial" id=1]
+flags_vertex_lighting = true
+albedo_color = Color( 0.780392, 0.498039, 0.129412, 1 )
+emission_enabled = true
+emission = Color( 0.780392, 0.498039, 0.129412, 1 )
+emission_energy = 1.0
+emission_operator = 0
+emission_on_uv2 = false
+
+[sub_resource type="SphereMesh" id=2]
+radius = 0.1
+height = 0.2
+
+[sub_resource type="GDScript" id=3]
+script/source = "extends MeshInstance
+
+onready var direction:Vector3 = -global_transform.basis.z
+var enabled:bool = true
+
+func _ready():
+	pass
+
+func _physics_process(delta):
+	if enabled:
+		global_transform.origin += direction
+	pass
+
+func _on_Timer_timeout():
+	queue_free()
+	pass
+
+func _on_Area_body_entered(body):
+	enabled = false
+	$Smoke.emitting = true
+	if body.get_parent().has_method(\"hit\"):
+		body.get_parent().hit(1)
+	yield(get_tree().create_timer(0.5), \"timeout\")
+	queue_free()
+	pass
+"
+
+[sub_resource type="SpatialMaterial" id=4]
+flags_transparent = true
+flags_vertex_lighting = true
+vertex_color_use_as_albedo = true
+emission_enabled = true
+emission = Color( 1, 0.670588, 0, 1 )
+emission_energy = 1.0
+emission_operator = 0
+emission_on_uv2 = false
+
+[sub_resource type="SphereMesh" id=5]
+
+[sub_resource type="Curve" id=6]
+_data = [ Vector2( 0, 0 ), 0.0, 0.0, 0, 0, Vector2( 1, 0 ), -3.49772, 0.0, 0, 0 ]
+
+[sub_resource type="Gradient" id=7]
+offsets = PoolRealArray( 0.0472973, 0.621622, 1 )
+colors = PoolColorArray( 1, 0.820312, 0, 1, 1, 0.369141, 0, 1, 1, 0.84375, 0, 0 )
+
+[sub_resource type="SphereShape" id=8]
+radius = 0.3
+
+[node name="Bullet" type="MeshInstance"]
+material_override = SubResource( 1 )
+mesh = SubResource( 2 )
+material/0 = null
+script = SubResource( 3 )
+
+[node name="Smoke" type="CPUParticles" parent="."]
+material_override = SubResource( 4 )
+emitting = false
+one_shot = true
+speed_scale = 3.0
+explosiveness = 0.78
+mesh = SubResource( 5 )
+direction = Vector3( 0, 0, 0 )
+spread = 180.0
+gravity = Vector3( 0, 1, 0 )
+initial_velocity = 1.0
+scale_amount = 0.3
+scale_amount_curve = SubResource( 6 )
+color_ramp = SubResource( 7 )
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 5.0
+one_shot = true
+autostart = true
+
+[node name="Area" type="Area" parent="."]
+collision_layer = 3
+collision_mask = 3
+
+[node name="CollisionShape" type="CollisionShape" parent="Area"]
+shape = SubResource( 8 )
+
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
+[connection signal="body_entered" from="Area" to="." method="_on_Area_body_entered"]

@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/terrain_roadSplit.obj-5d618cceac3b7ec01e1330bcac87a818.mesh"
+
+[deps]
+
+files=[ "res://.import/terrain_roadSplit.obj-5d618cceac3b7ec01e1330bcac87a818.mesh" ]
+
+source_file="res://assets/3d/OBJ format/terrain_roadSplit.obj"
+dest_files=[ "res://.import/terrain_roadSplit.obj-5d618cceac3b7ec01e1330bcac87a818.mesh", "res://.import/terrain_roadSplit.obj-5d618cceac3b7ec01e1330bcac87a818.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

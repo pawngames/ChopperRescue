@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="assets.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="3.3112704"
+     inkscape:cx="268.17502"
+     inkscape:cy="597.20281"
+     inkscape:window-width="1640"
+     inkscape:window-height="1025"
+     inkscape:window-x="40"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3415">
+      <stop
+         style="stop-color:#00ff00;stop-opacity:1;"
+         offset="0"
+         id="stop3411" />
+      <stop
+         style="stop-color:#00ff00;stop-opacity:0;"
+         offset="1"
+         id="stop3413" />
+    </linearGradient>
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect1150"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Usar a regra de preenchimento par ou ímpar na caixa de diálogo &lt;b&gt;preenchimento e contorno&lt;/b&gt; se nenhum resultado nivelar após converter o clipe em caminhos." />
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter978"
+       x="-0.13843363"
+       y="-0.13843363"
+       width="1.2768673"
+       height="1.2768673">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur970" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur972" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite974" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend976" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter978-3"
+       x="-0.13843363"
+       y="-0.13843363"
+       width="1.2768673"
+       height="1.2768673">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur970-6" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur972-7" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite974-5"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend976-3" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1146">
+      <rect
+         style="display:none;fill:#ffff00;stroke-width:5.33149;stroke-linecap:square;stroke-dashoffset:98.5;paint-order:markers stroke fill"
+         id="rect1148"
+         width="70.008957"
+         height="70.008957"
+         x="27.358786"
+         y="30.98905"
+         d="m 27.358786,30.98905 h 70.008957 v 70.00896 H 27.358786 Z" />
+      <path
+         id="lpe_path-effect1150"
+         style="fill:#ffff00;stroke-width:5.33149;stroke-linecap:square;stroke-dashoffset:98.5;paint-order:markers stroke fill"
+         class="powerclip"
+         d="M 1.9105204,5.5407752 H 122.81603 V 126.44628 H 1.9105204 Z M 27.358786,30.98905 v 70.00896 H 97.367743 V 30.98905 Z" />
+    </clipPath>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3415"
+       id="radialGradient3417"
+       cx="54.298481"
+       cy="202.94679"
+       fx="54.298481"
+       fy="202.94679"
+       r="22.005749"
+       gradientTransform="matrix(-9.3775336e-6,1.3803653,-1.3714245,0,332.62529,127.99496)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#ffff00;stroke-width:6.61458;stroke-linecap:square;stroke-dashoffset:98.5;paint-order:markers stroke fill;filter:url(#filter978)"
+       id="rect866"
+       width="86.857506"
+       height="86.857506"
+       x="18.934521"
+       y="22.564775"
+       clip-path="url(#clipPath1146)"
+       inkscape:path-effect="#path-effect1150"
+       d="M 18.934521,22.564775 H 105.79203 V 109.42228 H 18.934521 Z"
+       sodipodi:type="rect"
+       inkscape:export-filename="/media/jmtstorres/Dados/Projetos/Jogos/ChopperRescue/assets/2d/langing_zone.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#808080;stroke-width:12.0935;stroke-linecap:square;stroke-dashoffset:98.5;paint-order:markers stroke fill"
+       id="rect858"
+       width="270.93332"
+       height="158.75"
+       x="28.634125"
+       y="176.92262" />
+    <g
+       id="g3307"
+       style="fill-opacity:1;stroke:url(#radialGradient3417)"
+       inkscape:export-filename="/media/jmtstorres/Dados/Projetos/Jogos/ChopperRescue/assets/2d/map_back.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <rect
+         style="fill:none;stroke:url(#radialGradient3417);stroke-width:0.79375;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:98.5;paint-order:markers stroke fill;fill-opacity:1.0"
+         id="rect858-6-2"
+         width="10.804438"
+         height="10.804438"
+         x="32.689705"
+         y="181.33781" />
+      <rect
+         style="fill:none;stroke:url(#radialGradient3417);stroke-width:0.79375;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:98.5;paint-order:markers stroke fill;fill-opacity:1.0"
+         id="rect858-6-2-9"
+         width="10.804438"
+         height="10.804438"
+         x="32.689705"
+         y="192.14226" />
+      <rect
+         style="fill:none;stroke:url(#radialGradient3417);stroke-width:0.79375;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:98.5;paint-order:markers stroke fill;fill-opacity:1.0"
+         id="rect858-6-2-1"
+         width="10.804438"
+         height="10.804438"
+         x="32.689701"
+         y="202.9467" />
+      <rect
+         style="fill:none;stroke:url(#radialGradient3417);stroke-width:0.79375;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:98.5;paint-order:markers stroke fill;fill-opacity:1.0"
+         id="rect858-6-2-9-2"
+         width="10.804438"
+         height="10.804438"
+         x="32.689701"
+         y="213.75114" />
+      <rect
+         style="fill:none;stroke:url(#radialGradient3417);stroke-width:0.79375;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:98.5;paint-order:markers stroke fill;fill-opacity:1.0"
+         id="rect858-6-2-7"
+         width="10.804438"
+         height="10.804438"
+         x="43.494141"
+         y="181.33781" />
+      <rect
+         style="fill:none;stroke:url(#radialGradient3417);stroke-width:0.79375;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:98.5;paint-order:markers stroke fill;fill-opacity:1.0"
+         id="rect858-6-2-9-0"
+         width="10.804438"
+         height="10.804438"
+         x="43.494141"
+         y="192.14226" />
+      <rect
+         style="fill:none;stroke:url(#radialGradient3417);stroke-width:0.79375;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:98.5;paint-order:markers stroke fill;fill-opacity:1.0"
+         id="rect858-6-2-1-9"
+         width="10.804438"
+         height="10.804438"
+         x="43.494137"
+         y="202.9467" />
+      <rect
+         style="fill:none;stroke:url(#radialGradient3417);stroke-width:0.79375;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:98.5;paint-order:markers stroke fill;fill-opacity:1.0"
+         id="rect858-6-2-9-2-3"
+         width="10.804438"
+         height="10.804438"
+         x="43.494137"
+         y="213.75114" />
+      <rect
+         style="fill:none;stroke:url(#radialGradient3417);stroke-width:0.79375;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:98.5;paint-order:markers stroke fill;fill-opacity:1.0"
+         id="rect858-6-2-6"
+         width="10.804438"
+         height="10.804438"
+         x="54.298576"
+         y="181.33781" />
+      <rect
+         style="fill:none;stroke:url(#radialGradient3417);stroke-width:0.79375;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:98.5;paint-order:markers stroke fill;fill-opacity:1.0"
+         id="rect858-6-2-9-06"
+         width="10.804438"
+         height="10.804438"
+         x="54.298576"
+         y="192.14226" />
+      <rect
+         style="fill:none;stroke:url(#radialGradient3417);stroke-width:0.79375;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:98.5;paint-order:markers stroke fill;fill-opacity:1.0"
+         id="rect858-6-2-1-2"
+         width="10.804438"
+         height="10.804438"
+         x="54.298573"
+         y="202.9467" />
+      <rect
+         style="fill:none;stroke:url(#radialGradient3417);stroke-width:0.79375;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:98.5;paint-order:markers stroke fill;fill-opacity:1.0"
+         id="rect858-6-2-9-2-6"
+         width="10.804438"
+         height="10.804438"
+         x="54.298573"
+         y="213.75114" />
+      <rect
+         style="fill:none;stroke:url(#radialGradient3417);stroke-width:0.79375;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:98.5;paint-order:markers stroke fill;fill-opacity:1.0"
+         id="rect858-6-2-7-1"
+         width="10.804438"
+         height="10.804438"
+         x="65.103012"
+         y="181.33781" />
+      <rect
+         style="fill:none;stroke:url(#radialGradient3417);stroke-width:0.79375;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:98.5;paint-order:markers stroke fill;fill-opacity:1.0"
+         id="rect858-6-2-9-0-8"
+         width="10.804438"
+         height="10.804438"
+         x="65.103012"
+         y="192.14226" />
+      <rect
+         style="fill:none;stroke:url(#radialGradient3417);stroke-width:0.79375;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:98.5;paint-order:markers stroke fill;fill-opacity:1.0"
+         id="rect858-6-2-1-9-7"
+         width="10.804438"
+         height="10.804438"
+         x="65.103012"
+         y="202.9467" />
+      <rect
+         style="fill:none;stroke:url(#radialGradient3417);stroke-width:0.79375;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:98.5;paint-order:markers stroke fill;fill-opacity:1.0"
+         id="rect858-6-2-9-2-3-9"
+         width="10.804438"
+         height="10.804438"
+         x="65.103012"
+         y="213.75114" />
+    </g>
+    <path
+       id="rect858-3"
+       style="fill:#000000;fill-opacity:0.15000001;stroke:none;stroke-width:8.12077;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:98.5;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 108.22266 668.68359 L 108.22266 693.30859 L 379.0957 703.74805 L 422.9668 723.08203 L 817.45703 723.08203 L 861.32812 703.74805 L 1132.2012 693.30859 L 1132.2012 668.68359 L 108.22266 668.68359 z M 422.98828 1186.3926 L 379.11719 1215.6406 L 108.24414 1231.4336 L 108.24414 1268.6836 L 1132.2227 1268.6836 L 1132.2227 1231.4336 L 861.34961 1215.6406 L 817.47852 1186.3926 L 422.98828 1186.3926 z "
+       transform="scale(0.26458333)"
+       inkscape:export-filename="/media/jmtstorres/Dados/Projetos/Jogos/ChopperRescue/assets/2d/ui_overlay.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:#008000;stroke-width:0.52916667;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:98.5;stroke-opacity:1;paint-order:normal;opacity:0.75"
+       id="path4207"
+       cx="59.251984"
+       cy="208.75772"
+       r="1.3389148"
+       inkscape:export-filename="/media/jmtstorres/Dados/Projetos/Jogos/ChopperRescue/assets/2d/turret_map.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:#008000;stroke-width:0.529167;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:98.5;stroke-opacity:1;paint-order:normal;opacity:0.75"
+       id="rect4693"
+       width="4.6526475"
+       height="4.6526475"
+       x="176.09602"
+       y="92.320328"
+       transform="rotate(45)"
+       inkscape:export-filename="/media/jmtstorres/Dados/Projetos/Jogos/ChopperRescue/assets/2d/enemy_base.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#ffff00;fill-opacity:1;stroke:#008000;stroke-width:0.529167;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:98.5;stroke-opacity:1;paint-order:normal;opacity:0.75"
+       id="rect4693-0"
+       width="4.6526475"
+       height="4.6526475"
+       x="182.70702"
+       y="122.03455"
+       transform="rotate(45)"
+       inkscape:export-filename="/media/jmtstorres/Dados/Projetos/Jogos/ChopperRescue/assets/2d/base_merker.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#ffff00;fill-opacity:1;stroke:#008000;stroke-width:0.52916667;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:98.5;stroke-opacity:1;paint-order:normal;opacity:0.75"
+       id="rect4693-2"
+       width="3.0000529"
+       height="3.0000529"
+       x="198.13968"
+       y="-60.623425"
+       transform="rotate(90)"
+       inkscape:export-filename="/media/jmtstorres/Dados/Projetos/Jogos/ChopperRescue/assets/2d/landing_zone.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="rect4837"
+       style="fill:#ffff00;stroke:#008000;stroke-width:0.52916667;stroke-linecap:square;stroke-dashoffset:98.5;stroke-miterlimit:4;stroke-dasharray:none;opacity:0.75"
+       d="m 54.298578,198.5675 1.704526,5.49209 -1.704528,-1.11289 -1.704526,1.1129 z"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/media/jmtstorres/Dados/Projetos/Jogos/ChopperRescue/assets/2d/player_marker.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="rect958"
+       style="opacity:0.75;fill:#ff0000;stroke:#008000;stroke-width:0.79375;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:98.5;paint-order:stroke fill markers"
+       d="m 51.149805,207.87965 -0.858348,0.85834 -0.858346,-0.85834 -0.428971,0.42897 0.858348,0.85835 -0.858349,0.85834 0.428972,0.42897 0.858348,-0.85834 0.858144,0.85814 0.428971,-0.42896 -0.858145,-0.85815 0.858348,-0.85835 z"
+       inkscape:export-filename="/media/jmtstorres/Dados/Projetos/Jogos/ChopperRescue/assets/2d/down_marker.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#01ff01;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;opacity:0.4"
+       d="m 60.896176,161.38657 4.830858,-4.83086 h 23.535508"
+       id="path935"
+       inkscape:export-filename="/media/jmtstorres/Dados/Projetos/Jogos/ChopperRescue/assets/2d/indicator.png"
+       inkscape:export-xdpi="95"
+       inkscape:export-ydpi="95" />
+  </g>
+</svg>

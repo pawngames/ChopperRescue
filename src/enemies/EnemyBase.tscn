@@ -1,0 +1,162 @@
+[gd_scene load_steps=19 format=2]
+
+[ext_resource path="res://src/meshlib/kenney_enemies.meshlib" type="MeshLibrary" id=1]
+[ext_resource path="res://src/hostage/HostageB.tscn" type="PackedScene" id=2]
+[ext_resource path="res://src/enemies/EnemyBase.gd" type="Script" id=3]
+[ext_resource path="res://src/particles/LandingIndicator.tscn" type="PackedScene" id=4]
+[ext_resource path="res://src/enemies/TurretDouble.tscn" type="PackedScene" id=5]
+
+[sub_resource type="BoxShape" id=1]
+extents = Vector3( 4, 0.4, 4 )
+
+[sub_resource type="NavigationMesh" id=2]
+vertices = PoolVector3Array( -2.00819, 0.55, -19.4, -11.6082, 0.55, -19.4, -11.6082, 0.55, -9.8, -11.6082, 0.55, 9.4, -11.6082, 0.55, 19.3, -2.00819, 0.55, 19.3, 27.0918, 0.55, -9.8, 27.0918, 0.55, -19.4, 17.1918, 0.55, -19.4, 17.1918, 0.55, 19.3, 27.0918, 0.55, 19.3, 27.0918, 0.55, 9.4, 7.59181, 0.55, -19.4, -2.00819, 0.55, -19.4, -11.6082, 0.55, -9.8, -11.6082, 0.55, -0.199999, -11.6082, 0.55, 9.4, -2.00819, 0.55, 19.3, 7.59181, 0.55, 19.3, 27.0918, 0.55, -0.199999, 27.0918, 0.55, -9.8, 17.1918, 0.55, -19.4, 7.59181, 0.55, -19.4, 7.59181, 0.55, 19.3, 17.1918, 0.55, 19.3, 27.0918, 0.55, 9.4, -11.6082, 0.55, -0.199999, -11.6082, 0.55, 9.4, 7.59181, 0.55, 19.3, 27.0918, 0.55, 9.4, 27.0918, 0.55, -0.199999, 7.59181, 0.55, -19.4 )
+polygons = [ PoolIntArray( 2, 1, 0 ), PoolIntArray( 3, 5, 4 ), PoolIntArray( 8, 7, 6 ), PoolIntArray( 11, 10, 9 ), PoolIntArray( 13, 12, 14 ), PoolIntArray( 14, 12, 15 ), PoolIntArray( 18, 17, 16 ), PoolIntArray( 20, 19, 21 ), PoolIntArray( 21, 19, 22 ), PoolIntArray( 25, 24, 23 ), PoolIntArray( 27, 26, 28 ), PoolIntArray( 28, 26, 29 ), PoolIntArray( 29, 26, 30 ), PoolIntArray( 30, 26, 31 ) ]
+
+[sub_resource type="CubeMesh" id=3]
+size = Vector3( 40, 0.5, 40 )
+
+[sub_resource type="SpatialMaterial" id=4]
+albedo_color = Color( 0.0509804, 0.00392157, 0.00392157, 1 )
+
+[sub_resource type="BoxShape" id=5]
+extents = Vector3( 4.6, 2.2, 10 )
+
+[sub_resource type="BoxShape" id=6]
+extents = Vector3( 4, 0.2, 4 )
+
+[sub_resource type="BoxShape" id=7]
+extents = Vector3( 4, 2, 4 )
+
+[sub_resource type="BoxShape" id=8]
+extents = Vector3( 2.7, 2.9, 2.7 )
+
+[sub_resource type="BoxShape" id=9]
+extents = Vector3( 1.9, 0.7, 3 )
+
+[sub_resource type="SpatialMaterial" id=10]
+flags_transparent = true
+flags_unshaded = true
+flags_vertex_lighting = true
+vertex_color_use_as_albedo = true
+
+[sub_resource type="SphereMesh" id=11]
+
+[sub_resource type="Curve" id=12]
+_data = [ Vector2( 0, 0.5125 ), 0.0, 4.37143, 0, 0, Vector2( 1, 0 ), -0.706034, 0.0, 0, 0 ]
+
+[sub_resource type="Gradient" id=13]
+offsets = PoolRealArray( 0.2, 0.405714, 0.634286, 0.811429 )
+colors = PoolColorArray( 1, 0, 0, 1, 1, 0.996094, 0, 1, 0.416016, 0.416016, 0.416016, 1, 0.376471, 0.376471, 0.376471, 0 )
+
+[node name="EnemyBase" type="Spatial" groups=[
+"Enemy_Base",
+]]
+script = ExtResource( 3 )
+hostage_scene = ExtResource( 2 )
+
+[node name="GridMap" type="GridMap" parent="."]
+mesh_library = ExtResource( 1 )
+cell_size = Vector3( 1, 1, 1 )
+cell_center_x = false
+cell_center_y = false
+cell_center_z = false
+cell_scale = 4.0
+data = {
+"cells": PoolIntArray( 1, 1, 24, 18, 1, 13, 131072, 1, 1507350, 131074, 1, 1245206, 262144, 1, 9, 262146, 1, 9, 262148, 5, 720905, 327678, 6, 720905, 262145, 7, 393221, 393219, 7, 917526, 458751, 7, 917526, 458753, 7, 15, 524289, 7, 13, 720897, 7, 17, 458753, 65530, 6, 262145, 65531, 786437, 393219, 65531, 262166, 458751, 65531, 262166, 524289, 65531, 13, 262148, 65532, 720905, 327678, 65532, 720905, 458753, 65532, 6 )
+}
+__meta__ = {
+"_editor_clip_": 0,
+"_editor_floor_": Vector3( 0, 4, 0 )
+}
+
+[node name="LandingArea" type="Area" parent="." groups=[
+"Landing_Zone",
+]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.0036, 0, 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="LandingArea"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4, 0 )
+shape = SubResource( 1 )
+
+[node name="LandingIndicator" parent="LandingArea" instance=ExtResource( 4 )]
+
+[node name="HostageSpawn" type="Position3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.21232, 0 )
+
+[node name="Hostages" type="Spatial" parent="."]
+
+[node name="Navigation" type="Navigation" parent="."]
+
+[node name="NavigationMeshInstance" type="NavigationMeshInstance" parent="Navigation"]
+navmesh = SubResource( 2 )
+
+[node name="MeshInstance" type="MeshInstance" parent="Navigation/NavigationMeshInstance"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.79181, 0, 0 )
+visible = false
+mesh = SubResource( 3 )
+material/0 = SubResource( 4 )
+
+[node name="TurretDouble" parent="." instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.218, 0, -12.1 )
+
+[node name="TurretDouble2" parent="." instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, 14 )
+
+[node name="StaticBody" type="StaticBody" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0.2, 1 )
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape" type="CollisionShape" parent="StaticBody"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0 )
+shape = SubResource( 5 )
+
+[node name="CollisionShape6" type="CollisionShape" parent="StaticBody"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 17, 4.47035e-08, 0 )
+shape = SubResource( 6 )
+
+[node name="CollisionShape2" type="CollisionShape" parent="StaticBody"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.2, 6 )
+shape = SubResource( 7 )
+
+[node name="CollisionShape4" type="CollisionShape" parent="StaticBody"]
+transform = Transform( 0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 0, 11.2, 6 )
+shape = SubResource( 8 )
+
+[node name="CollisionShape3" type="CollisionShape" parent="StaticBody"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.2, -6 )
+shape = SubResource( 7 )
+
+[node name="CollisionShape5" type="CollisionShape" parent="StaticBody"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8.9, -6 )
+shape = SubResource( 9 )
+
+[node name="Smoke" type="CPUParticles" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 0 )
+material_override = SubResource( 10 )
+emitting = false
+amount = 30
+lifetime = 2.0
+speed_scale = 1.3
+explosiveness = 0.2
+mesh = SubResource( 11 )
+direction = Vector3( 0, 1, 0 )
+spread = 180.0
+flatness = 0.5
+gravity = Vector3( 0, 2, 0 )
+initial_velocity = 4.0
+initial_velocity_random = 1.0
+linear_accel = 15.0
+linear_accel_random = 0.1
+radial_accel = -12.0
+radial_accel_random = 0.1
+damping = 2.0
+damping_random = 0.3
+scale_amount = 2.0
+scale_amount_random = 1.0
+scale_amount_curve = SubResource( 12 )
+color_ramp = SubResource( 13 )
+
+[connection signal="area_entered" from="LandingArea" to="." method="_on_LandingArea_area_entered"]
+[connection signal="area_exited" from="LandingArea" to="." method="_on_LandingArea_area_exited"]

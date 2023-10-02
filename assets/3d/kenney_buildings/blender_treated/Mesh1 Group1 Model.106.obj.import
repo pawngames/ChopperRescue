@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Mesh1 Group1 Model.106.obj-ab7445856df743ae8c27a1f7e2fd310b.mesh"
+
+[deps]
+
+files=[ "res://.import/Mesh1 Group1 Model.106.obj-ab7445856df743ae8c27a1f7e2fd310b.mesh" ]
+
+source_file="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.106.obj"
+dest_files=[ "res://.import/Mesh1 Group1 Model.106.obj-ab7445856df743ae8c27a1f7e2fd310b.mesh", "res://.import/Mesh1 Group1 Model.106.obj-ab7445856df743ae8c27a1f7e2fd310b.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

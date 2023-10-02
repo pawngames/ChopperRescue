@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://assets/2d/langing_zone.png" type="Texture" id=1]
+
+[sub_resource type="SpatialMaterial" id=1]
+flags_transparent = true
+flags_unshaded = true
+flags_vertex_lighting = true
+vertex_color_use_as_albedo = true
+params_cull_mode = 2
+albedo_color = Color( 1, 1, 1, 0.294118 )
+albedo_texture = ExtResource( 1 )
+
+[sub_resource type="QuadMesh" id=2]
+size = Vector2( 10, 10 )
+
+[sub_resource type="Gradient" id=3]
+offsets = PoolRealArray( 0, 0.213198, 0.786802, 1 )
+colors = PoolColorArray( 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0 )
+
+[node name="LandingIndicator" type="CPUParticles"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0.5, 0 )
+material_override = SubResource( 1 )
+amount = 2
+lifetime = 1.5
+mesh = SubResource( 2 )
+direction = Vector3( 0, 0, 1 )
+spread = 0.0
+gravity = Vector3( 0, 0, 0 )
+initial_velocity = 1.0
+color_ramp = SubResource( 3 )

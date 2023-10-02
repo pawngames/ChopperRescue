@@ -1,0 +1,652 @@
+[gd_scene load_steps=102 format=2]
+
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.019.obj" type="ArrayMesh" id=1]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.001.obj" type="ArrayMesh" id=2]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.049.obj" type="ArrayMesh" id=3]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.027.obj" type="ArrayMesh" id=4]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.050.obj" type="ArrayMesh" id=5]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.071.obj" type="ArrayMesh" id=6]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.072.obj" type="ArrayMesh" id=7]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.008.obj" type="ArrayMesh" id=8]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.043.obj" type="ArrayMesh" id=9]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.007.obj" type="ArrayMesh" id=10]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.045.obj" type="ArrayMesh" id=11]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.041.obj" type="ArrayMesh" id=12]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.018.obj" type="ArrayMesh" id=13]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.016.obj" type="ArrayMesh" id=14]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.096.obj" type="ArrayMesh" id=15]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.097.obj" type="ArrayMesh" id=16]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.098.obj" type="ArrayMesh" id=17]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.099.obj" type="ArrayMesh" id=18]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.obj" type="ArrayMesh" id=19]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh2 Group1 Model.001.obj" type="ArrayMesh" id=20]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.055.obj" type="ArrayMesh" id=21]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.011.obj" type="ArrayMesh" id=22]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.022.obj" type="ArrayMesh" id=23]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.030.obj" type="ArrayMesh" id=24]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.025.obj" type="ArrayMesh" id=25]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.058.obj" type="ArrayMesh" id=26]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.046.obj" type="ArrayMesh" id=27]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.078.obj" type="ArrayMesh" id=28]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.082.obj" type="ArrayMesh" id=29]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.062.obj" type="ArrayMesh" id=30]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.065.obj" type="ArrayMesh" id=31]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.068.obj" type="ArrayMesh" id=32]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.070.obj" type="ArrayMesh" id=33]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.080.obj" type="ArrayMesh" id=34]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.015.obj" type="ArrayMesh" id=35]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.032.obj" type="ArrayMesh" id=36]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.042.obj" type="ArrayMesh" id=37]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.077.obj" type="ArrayMesh" id=38]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.076.obj" type="ArrayMesh" id=39]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.010.obj" type="ArrayMesh" id=40]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.012.obj" type="ArrayMesh" id=41]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.053.obj" type="ArrayMesh" id=42]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.038.obj" type="ArrayMesh" id=43]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.063.obj" type="ArrayMesh" id=44]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.009.obj" type="ArrayMesh" id=45]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.003.obj" type="ArrayMesh" id=46]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.002.obj" type="ArrayMesh" id=47]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.052.obj" type="ArrayMesh" id=48]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.047.obj" type="ArrayMesh" id=49]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.074.obj" type="ArrayMesh" id=50]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.021.obj" type="ArrayMesh" id=51]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.073.obj" type="ArrayMesh" id=52]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.040.obj" type="ArrayMesh" id=53]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.060.obj" type="ArrayMesh" id=54]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.036.obj" type="ArrayMesh" id=55]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.017.obj" type="ArrayMesh" id=56]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.081.obj" type="ArrayMesh" id=57]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.006.obj" type="ArrayMesh" id=58]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.026.obj" type="ArrayMesh" id=59]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.054.obj" type="ArrayMesh" id=60]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.061.obj" type="ArrayMesh" id=61]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.048.obj" type="ArrayMesh" id=62]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.051.obj" type="ArrayMesh" id=63]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.079.obj" type="ArrayMesh" id=64]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.089.obj" type="ArrayMesh" id=65]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.090.obj" type="ArrayMesh" id=66]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.091.obj" type="ArrayMesh" id=67]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.092.obj" type="ArrayMesh" id=68]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.093.obj" type="ArrayMesh" id=69]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.094.obj" type="ArrayMesh" id=70]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.095.obj" type="ArrayMesh" id=71]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.033.obj" type="ArrayMesh" id=72]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.059.obj" type="ArrayMesh" id=73]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.067.obj" type="ArrayMesh" id=74]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.066.obj" type="ArrayMesh" id=75]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.044.obj" type="ArrayMesh" id=76]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.035.obj" type="ArrayMesh" id=77]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.083.obj" type="ArrayMesh" id=78]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.088.obj" type="ArrayMesh" id=79]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.084.obj" type="ArrayMesh" id=80]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.085.obj" type="ArrayMesh" id=81]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.086.obj" type="ArrayMesh" id=82]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.087.obj" type="ArrayMesh" id=83]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.023.obj" type="ArrayMesh" id=84]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.014.obj" type="ArrayMesh" id=85]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.013.obj" type="ArrayMesh" id=86]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.005.obj" type="ArrayMesh" id=87]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.004.obj" type="ArrayMesh" id=88]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.029.obj" type="ArrayMesh" id=89]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.039.obj" type="ArrayMesh" id=90]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.028.obj" type="ArrayMesh" id=91]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.037.obj" type="ArrayMesh" id=92]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.024.obj" type="ArrayMesh" id=93]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.031.obj" type="ArrayMesh" id=94]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.020.obj" type="ArrayMesh" id=95]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.075.obj" type="ArrayMesh" id=96]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.069.obj" type="ArrayMesh" id=97]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.034.obj" type="ArrayMesh" id=98]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.056.obj" type="ArrayMesh" id=99]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.057.obj" type="ArrayMesh" id=100]
+[ext_resource path="res://assets/3d/kenney_buildings/blender_treated/Mesh1 Group1 Model.064.obj" type="ArrayMesh" id=101]
+
+[node name="BuildingModules" type="Spatial"]
+
+[node name="Building_Top_001" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.83457, 0, 0 )
+mesh = ExtResource( 2 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Building_Top_002" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.7282, 0, 0 )
+mesh = ExtResource( 47 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Building_Top_003" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.5264, 0, 0 )
+mesh = ExtResource( 46 )
+material/0 = null
+
+[node name="Building_Top_004" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.2665, 0, 0 )
+mesh = ExtResource( 88 )
+material/0 = null
+material/1 = null
+
+[node name="Building_005" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -16.1316, 0, 0 )
+mesh = ExtResource( 87 )
+material/0 = null
+
+[node name="Building_006" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -16.1608, 0, -1.55634 )
+mesh = ExtResource( 58 )
+material/0 = null
+
+[node name="Building_007" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -16.2695, 0, -3.40259 )
+mesh = ExtResource( 10 )
+material/0 = null
+
+[node name="Building_008" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -16.2614, 0, -5.40132 )
+mesh = ExtResource( 8 )
+material/0 = null
+
+[node name="Building_Top_009" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.2674, 0, -1.65381 )
+mesh = ExtResource( 45 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Building_Top_010" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.6313, 0, -5.47119 )
+mesh = ExtResource( 40 )
+material/0 = null
+
+[node name="Building_011" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.2122, 0, -3.73291 )
+mesh = ExtResource( 22 )
+material/0 = null
+material/1 = null
+
+[node name="Building_012" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -16.183, 0, -6.95106 )
+mesh = ExtResource( 41 )
+material/0 = null
+
+[node name="Building_013" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.5005, 0, -1.67819 )
+mesh = ExtResource( 86 )
+material/0 = null
+
+[node name="Building_014" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.7501, 4.76837e-07, -3.43332 )
+mesh = ExtResource( 85 )
+material/0 = null
+
+[node name="Building_015" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.4097, 0, 1.50868 )
+mesh = ExtResource( 35 )
+material/0 = null
+
+[node name="Building_016" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.8148, 0, 1.60043 )
+mesh = ExtResource( 14 )
+material/0 = null
+
+[node name="Building_017" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.42465, 0, -1.604 )
+mesh = ExtResource( 56 )
+material/0 = null
+
+[node name="Building_018" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.2289, -9.53674e-07, 1.37599 )
+mesh = ExtResource( 13 )
+material/0 = null
+
+[node name="Building_019" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3615, 0, -3.64874 )
+mesh = ExtResource( 1 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Building_020" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.79988, 0, 0 )
+mesh = ExtResource( 95 )
+material/0 = null
+material/1 = null
+
+[node name="Building_021" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.72536, 0, -5.31959 )
+mesh = ExtResource( 51 )
+material/0 = null
+material/1 = null
+
+[node name="Building_022" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.08229, 0, 0 )
+mesh = ExtResource( 23 )
+material/0 = null
+material/1 = null
+
+[node name="Building_023" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.3586 )
+mesh = ExtResource( 84 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Building_024" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.16399 )
+mesh = ExtResource( 93 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Building_025" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.78953, 1.21216, 0.919329 )
+mesh = ExtResource( 25 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Building_026" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.76563 )
+mesh = ExtResource( 59 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Building_027" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.68379, -1.68775, 0.70097 )
+mesh = ExtResource( 4 )
+material/0 = null
+material/1 = null
+
+[node name="Building_028" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.92312, -1.30909, 2.3914 )
+mesh = ExtResource( 91 )
+material/0 = null
+material/1 = null
+
+[node name="Building_029" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.43237, 0, 0 )
+mesh = ExtResource( 89 )
+material/0 = null
+material/1 = null
+
+[node name="Building_030" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.22657, 0, 1.43852 )
+mesh = ExtResource( 24 )
+material/0 = null
+
+[node name="Building_031" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.302, 0, -9.71725 )
+mesh = ExtResource( 94 )
+material/0 = null
+material/1 = null
+
+[node name="Building_032" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.32496, 0, -8.01806 )
+mesh = ExtResource( 36 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Building_033" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.37964, -1.43892, 2.26446 )
+mesh = ExtResource( 72 )
+material/0 = null
+material/1 = null
+
+[node name="Building_034" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.78923, 0, -2.57361 )
+mesh = ExtResource( 98 )
+material/0 = null
+material/1 = null
+
+[node name="Building_035" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.45756, 0, 0 )
+mesh = ExtResource( 77 )
+material/0 = null
+
+[node name="Building_036" type="MeshInstance" parent="."]
+transform = Transform( 0.993816, 0, -0.111035, 0, 1, 0, 0.111035, 0, 0.993816, 2.72554, -0.854694, -0.220499 )
+mesh = ExtResource( 55 )
+material/0 = null
+
+[node name="Building_037" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.64561, 0, -2.56462 )
+mesh = ExtResource( 92 )
+material/0 = null
+material/1 = null
+
+[node name="Building_038" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00790405, 2.19891, -0.0090555 )
+mesh = ExtResource( 43 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Building_039" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.83775, -0.89797, 4.16886 )
+mesh = ExtResource( 90 )
+material/0 = null
+material/1 = null
+
+[node name="Building_040" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.96404, -1.01698, 2.16063 )
+mesh = ExtResource( 53 )
+material/0 = null
+material/1 = null
+
+[node name="Building_041" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.2313, -2.90047 )
+mesh = ExtResource( 12 )
+material/0 = null
+material/1 = null
+
+[node name="Building_042" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.80389, 0, -8.68029 )
+mesh = ExtResource( 37 )
+material/0 = null
+material/1 = null
+
+[node name="Building_043" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.68087, 0.682719, -10.0344 )
+mesh = ExtResource( 9 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Building_044" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.7675, 2.04478, -9.16468 )
+mesh = ExtResource( 76 )
+material/0 = null
+material/1 = null
+
+[node name="Building_045" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.24629, 0.649136, -0.00804138 )
+mesh = ExtResource( 11 )
+material/0 = null
+material/1 = null
+
+[node name="Building_046" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.21786, -0.0216379, 1.86119 )
+mesh = ExtResource( 27 )
+material/0 = null
+material/1 = null
+
+[node name="Building_047" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.47864, 1.07107, -0.265683 )
+mesh = ExtResource( 49 )
+material/0 = null
+material/1 = null
+
+[node name="Building_048" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4.05656 )
+mesh = ExtResource( 62 )
+material/0 = null
+material/1 = null
+
+[node name="Building_049" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.19215, 1.50383, -0.322315 )
+mesh = ExtResource( 3 )
+material/0 = null
+material/1 = null
+
+[node name="Building_050" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.79981, 0, -11.1101 )
+mesh = ExtResource( 5 )
+material/0 = null
+material/1 = null
+
+[node name="Building_051" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.5183, 0, -10.1321 )
+mesh = ExtResource( 63 )
+material/0 = null
+material/1 = null
+
+[node name="Building_052" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.31699, 2.82157, -1.28016 )
+mesh = ExtResource( 48 )
+material/0 = null
+material/1 = null
+
+[node name="Building_053" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.09921, 1.40507, -2.17725 )
+mesh = ExtResource( 42 )
+material/0 = null
+material/1 = null
+
+[node name="Building_054" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.28118, 1.89628, -0.0800996 )
+mesh = ExtResource( 60 )
+material/0 = null
+material/1 = null
+
+[node name="Building_055" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.14042, 1.96482, -2.60026 )
+mesh = ExtResource( 21 )
+material/0 = null
+
+[node name="Building_056" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.21231, 1.24514, 0.346688 )
+mesh = ExtResource( 99 )
+material/0 = null
+material/1 = null
+
+[node name="Building_057" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.32409, 1.64447, -0.384391 )
+mesh = ExtResource( 100 )
+material/0 = null
+material/1 = null
+
+[node name="Building_058" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.27943, 0, 0 )
+mesh = ExtResource( 26 )
+material/0 = null
+material/1 = null
+
+[node name="Building_059" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.82039, 0, 3.1241 )
+mesh = ExtResource( 73 )
+material/0 = null
+material/1 = null
+
+[node name="Building_060" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.48903, 1.15376, 1.12554 )
+mesh = ExtResource( 54 )
+material/0 = null
+material/1 = null
+
+[node name="Building_061" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.18942, 1.40507, 0.77851 )
+mesh = ExtResource( 61 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Building_062" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.2344, 0, -8.16975 )
+mesh = ExtResource( 30 )
+material/0 = null
+material/1 = null
+
+[node name="Building_063" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.80466, 0.107696, -8.33954 )
+mesh = ExtResource( 44 )
+material/0 = null
+material/1 = null
+
+[node name="Building_064" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.7695, 0, -9.80615 )
+mesh = ExtResource( 101 )
+material/0 = null
+material/1 = null
+
+[node name="Building_065" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.76106, 0, 0 )
+mesh = ExtResource( 31 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Building_066" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.53933, 0, 0 )
+mesh = ExtResource( 75 )
+material/0 = null
+material/1 = null
+
+[node name="Building_067" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5.99594 )
+mesh = ExtResource( 74 )
+material/0 = null
+material/1 = null
+
+[node name="Building_068" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.43061, 0, -3.18979 )
+mesh = ExtResource( 32 )
+material/0 = null
+material/1 = null
+
+[node name="Building_069" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.91798, 0, 0 )
+mesh = ExtResource( 97 )
+material/0 = null
+material/1 = null
+
+[node name="Building_070" type="MeshInstance" parent="."]
+mesh = ExtResource( 33 )
+material/0 = null
+material/1 = null
+
+[node name="Building_071" type="MeshInstance" parent="."]
+mesh = ExtResource( 6 )
+material/0 = null
+material/1 = null
+
+[node name="Building_072" type="MeshInstance" parent="."]
+mesh = ExtResource( 7 )
+material/0 = null
+material/1 = null
+
+[node name="Building_073" type="MeshInstance" parent="."]
+mesh = ExtResource( 52 )
+material/0 = null
+material/1 = null
+
+[node name="Building_074" type="MeshInstance" parent="."]
+mesh = ExtResource( 50 )
+material/0 = null
+material/1 = null
+
+[node name="Building_075" type="MeshInstance" parent="."]
+mesh = ExtResource( 96 )
+material/0 = null
+material/1 = null
+
+[node name="Building_076" type="MeshInstance" parent="."]
+mesh = ExtResource( 39 )
+material/0 = null
+
+[node name="Building_077" type="MeshInstance" parent="."]
+mesh = ExtResource( 38 )
+material/0 = null
+
+[node name="Building_078" type="MeshInstance" parent="."]
+mesh = ExtResource( 28 )
+material/0 = null
+
+[node name="Building_079" type="MeshInstance" parent="."]
+mesh = ExtResource( 64 )
+material/0 = null
+
+[node name="Building_080" type="MeshInstance" parent="."]
+mesh = ExtResource( 34 )
+material/0 = null
+
+[node name="Building_081" type="MeshInstance" parent="."]
+mesh = ExtResource( 57 )
+material/0 = null
+
+[node name="Building_082" type="MeshInstance" parent="."]
+mesh = ExtResource( 29 )
+material/0 = null
+
+[node name="Building_083" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.72076, 0, 0 )
+mesh = ExtResource( 78 )
+material/0 = null
+
+[node name="Building_084" type="MeshInstance" parent="."]
+mesh = ExtResource( 80 )
+material/0 = null
+
+[node name="Building_085" type="MeshInstance" parent="."]
+mesh = ExtResource( 81 )
+material/0 = null
+
+[node name="Building_086" type="MeshInstance" parent="."]
+mesh = ExtResource( 82 )
+material/0 = null
+
+[node name="Building_087" type="MeshInstance" parent="."]
+mesh = ExtResource( 83 )
+material/0 = null
+
+[node name="Building_088" type="MeshInstance" parent="."]
+mesh = ExtResource( 79 )
+material/0 = null
+
+[node name="Building_089" type="MeshInstance" parent="."]
+mesh = ExtResource( 65 )
+material/0 = null
+
+[node name="Building_090" type="MeshInstance" parent="."]
+mesh = ExtResource( 66 )
+material/0 = null
+
+[node name="Building_091" type="MeshInstance" parent="."]
+mesh = ExtResource( 67 )
+material/0 = null
+
+[node name="Building_092" type="MeshInstance" parent="."]
+mesh = ExtResource( 68 )
+material/0 = null
+
+[node name="Building_093" type="MeshInstance" parent="."]
+mesh = ExtResource( 69 )
+material/0 = null
+
+[node name="Building_094" type="MeshInstance" parent="."]
+mesh = ExtResource( 70 )
+material/0 = null
+
+[node name="Building_095" type="MeshInstance" parent="."]
+mesh = ExtResource( 71 )
+material/0 = null
+
+[node name="Building_096" type="MeshInstance" parent="."]
+mesh = ExtResource( 15 )
+material/0 = null
+
+[node name="Building_097" type="MeshInstance" parent="."]
+mesh = ExtResource( 16 )
+material/0 = null
+
+[node name="Building_098" type="MeshInstance" parent="."]
+mesh = ExtResource( 17 )
+material/0 = null
+
+[node name="Building_099" type="MeshInstance" parent="."]
+mesh = ExtResource( 18 )
+material/0 = null
+
+[node name="Building_100" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.7667, 0, -7.05672 )
+mesh = ExtResource( 19 )
+material/0 = null
+
+[node name="Building_101" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.35454, 0, 0 )
+mesh = ExtResource( 20 )
+material/0 = null

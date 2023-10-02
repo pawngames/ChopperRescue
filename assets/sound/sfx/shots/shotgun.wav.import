@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/shotgun.wav-64de4504aa36a1e02f42153a9506cc81.sample"
+
+[deps]
+
+source_file="res://assets/sound/sfx/shots/shotgun.wav"
+dest_files=[ "res://.import/shotgun.wav-64de4504aa36a1e02f42153a9506cc81.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

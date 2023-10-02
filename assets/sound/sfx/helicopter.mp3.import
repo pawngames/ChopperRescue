@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/helicopter.mp3-ac158ed76a601ba2e4fa659c75d7af1d.mp3str"
+
+[deps]
+
+source_file="res://assets/sound/sfx/helicopter.mp3"
+dest_files=[ "res://.import/helicopter.mp3-ac158ed76a601ba2e4fa659c75d7af1d.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
